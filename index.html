@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Drewniane numery na drzwi i tabliczki z lipy | SunriseStamp</title>
+<meta name="description" content="Drewniane numery na drzwi mieszkania, numery na dom, tabliczki na boks i płaskorzeźby z litego drewna lipowego. Frezowane CNC i ręcznie wykańczane w Polsce.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Znaki z drewna, które opowiadają o domu i pasjach | SunriseStamp">
+<meta property="og:description" content="Numery na drzwi, numery na dom i tabliczki z litego drewna lipowego. Każdy znak z Twoim numerem.">
+<meta property="og:image" content="img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="theme-color" content="#782D43">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" type="image/webp" imagesrcset="img/gory2-640.webp 640w, img/gory2-1000.webp 1000w, img/gory2-1351.webp 1351w" imagesizes="(min-width:900px) 55vw, 100vw" fetchpriority="high">
+<link rel="preload" href="fonts/lora-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/figtree-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Figtree";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/figtree-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Figtree";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/figtree-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--bordo:#782D43;--bordo-c:#5E2033;--drewno:#221815;--bursztyn:#A9622B;--tekst:#231B18;--szary:#5C5552;--tlo2:#F1F2F4;--linia:#E1E2E6;--r:6px;--max:1240px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--tekst);font:400 17px/1.6 Figtree,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:Lora,Georgia,serif;font-weight:600;line-height:1.15;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(28px,3.4vw,44px)}
+h3{font-size:21px}
+p{margin:0}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:var(--r);font:600 16px/1 Figtree,sans-serif;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-jasny{background:#fff;color:var(--bordo)}
+.btn-jasny:hover{background:#F6E9ED}
+.btn-obrys{border-color:rgba(255,255,255,.65);color:#fff;background:transparent}
+.btn-obrys:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.btn-bordo{background:var(--bordo);color:#fff}
+.btn-bordo:hover{background:var(--bordo-c)}
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia)}
+.top .wrap{display:flex;align-items:center;gap:24px;height:64px}
+.logo{display:block;width:150px;height:40px;background:var(--drewno);-webkit-mask:url(img/logo.png) left center/contain no-repeat;mask:url(img/logo.png) left center/contain no-repeat;flex:none}
+.logo span{position:absolute;left:-9999px}
+.menu{display:flex;gap:26px;margin-left:auto;align-items:center}
+.menu a{text-decoration:none;font-weight:500;font-size:16px;padding:6px 0;border-bottom:2px solid transparent}
+.menu a:hover{border-color:var(--bordo)}
+.jezyk{position:relative}
+.jezyk summary{list-style:none;cursor:pointer;font-weight:600;font-size:14px;border:1px solid var(--linia);border-radius:var(--r);padding:7px 10px}
+.jezyk summary::-webkit-details-marker{display:none}
+.jezyk ul{position:absolute;right:0;top:40px;margin:0;padding:6px;list-style:none;background:#fff;border:1px solid var(--linia);border-radius:var(--r);box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.jezyk li a{display:block;padding:6px 14px;text-decoration:none;font-size:14px}
+.koszyk{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:600;font-size:15px;background:var(--bordo);color:#fff;border-radius:var(--r);padding:9px 14px}
+.koszyk b{display:inline-grid;place-items:center;min-width:22px;height:22px;border-radius:11px;background:#fff;color:var(--bordo);font-size:13px}
+.jezyk-tel{display:none}
+.burger{display:none;background:none;border:1px solid var(--linia);border-radius:var(--r);width:44px;height:44px;cursor:pointer;padding:0}
+.burger i{display:block;width:20px;height:2px;background:var(--drewno);margin:4px auto;transition:transform .2s}
+/* pierwszy ekran */
+.hero{display:grid;grid-template-columns:45fr 55fr;min-height:calc(100svh - 64px);background:var(--bordo);color:#fff}
+.hero-tekst{display:flex;flex-direction:column;justify-content:center;padding:56px 56px 56px max(20px,calc((100vw - var(--max))/2 + 20px))}
+.hero h1{font-size:clamp(34px,3.4vw,56px);max-width:17ch}
+.hero p.lead{margin-top:22px;font-size:clamp(17px,1.3vw,20px);max-width:36ch;color:#F3E3E8}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.hero .fakt{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.25);font-size:15px;color:#EBD3DA;max-width:44ch}
+.hero-foto{position:relative;overflow:hidden;border-radius:clamp(160px,22vw,420px) clamp(160px,22vw,420px) 0 0;margin-top:40px;margin-right:max(0px,calc((100vw - 1920px)/2))}
+.hero-foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+/* horyzont - motyw lukowy */
+.horyzont{display:flex;align-items:flex-end;gap:0;height:28px;margin:0 auto 26px;max-width:220px}
+.horyzont::before,.horyzont::after{content:"";flex:1;height:1px;background:currentColor;opacity:.35}
+.horyzont span{width:48px;height:24px;border:1px solid currentColor;border-bottom:0;border-radius:24px 24px 0 0;opacity:.7}
+.sekcja{padding:clamp(64px,8vw,112px) 0}
+.naglowek{text-align:center;max-width:720px;margin:0 auto 44px}
+.naglowek p{margin-top:14px;color:var(--szary);font-size:18px}
+/* kategorie */
+.kategorie{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.kat{text-decoration:none;display:block}
+.kat .ramka{aspect-ratio:3/4;border-radius:999px 999px var(--r) var(--r);overflow:hidden;background:var(--tlo2)}
+.kat img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.kat:hover img{transform:scale(1.04)}
+.kat h3{margin-top:16px;font-size:20px}
+.kat p{color:var(--szary);font-size:15px;margin-top:4px}
+/* modele */
+.szare{background:var(--tlo2)}
+.filtry{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:-16px 0 36px}
+.filtry button{font:600 15px/1 Figtree,sans-serif;border:1px solid #C9CBD1;background:#fff;color:var(--tekst);padding:11px 16px;border-radius:var(--r);cursor:pointer}
+.filtry button[aria-pressed="true"]{background:var(--drewno);border-color:var(--drewno);color:#fff}
+.siatka{display:grid;grid-template-columns:repeat(4,1fr);gap:28px 22px}
+.produkt{background:#fff;border-radius:var(--r);display:flex;flex-direction:column;overflow:hidden}
+.produkt[hidden]{display:none}
+.produkt .ramka{aspect-ratio:4/5;overflow:hidden;border-radius:999px 999px 0 0;margin:14px 14px 0;background:#E9E6E3}
+.produkt img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.produkt:hover img{transform:scale(1.04)}
+.produkt .opis{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.produkt h3{font-size:18px;line-height:1.3}
+.produkt p{font-size:15px;color:var(--szary);margin-top:6px;flex:1}
+.produkt .dol{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px}
+.cena{font-family:Lora,Georgia,serif;font-weight:600;font-size:20px;color:var(--bordo);white-space:nowrap}
+.cena small{font:500 13px Figtree,sans-serif;color:var(--szary)}
+.dodaj{font:600 14px/1 Figtree,sans-serif;border:1px solid var(--bordo);color:var(--bordo);background:#fff;border-radius:var(--r);padding:10px 12px;cursor:pointer;min-height:40px}
+.dodaj:hover,.dodaj.ok{background:var(--bordo);color:#fff}
+/* jak zamowic */
+.kroki{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--linia)}
+.kroki div{padding:28px 28px 0 0}
+.kroki div+div{padding-left:28px;border-left:1px solid var(--linia)}
+.kroki h3{font-size:22px}
+.kroki p{margin-top:10px;color:var(--szary)}
+.przyklad{display:inline-block;margin-top:14px;font-family:Lora,Georgia,serif;font-size:28px;font-weight:600;color:var(--bursztyn);letter-spacing:.06em}
+/* pracownia */
+.pracownia{background:var(--drewno);color:#EFE6E1}
+.pracownia .uklad{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,88px);align-items:center}
+.pracownia .foto{border-radius:999px 999px var(--r) var(--r);overflow:hidden;aspect-ratio:1/1;max-width:560px}
+.pracownia .foto img{width:100%;height:100%;object-fit:cover}
+.pracownia h2{color:#fff}
+.pracownia .lead{margin-top:18px;font-size:19px;color:#E4D6CF}
+.cechy{margin-top:34px;display:grid;gap:22px}
+.cechy div{border-top:1px solid rgba(255,255,255,.18);padding-top:18px}
+.cechy h3{font-size:19px;color:#fff}
+.cechy p{margin-top:6px;color:#CDBDB5;font-size:16px}
+/* faq */
+.faq{max-width:860px;margin:0 auto}
+.faq details{border-bottom:1px solid var(--linia)}
+.faq summary{cursor:pointer;list-style:none;padding:22px 40px 22px 0;font-family:Lora,Georgia,serif;font-weight:600;font-size:20px;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:14px;height:7px;border:1.5px solid var(--bordo);border-bottom:0;border-radius:14px 14px 0 0;transform:translateY(-50%) rotate(180deg);transition:transform .2s}
+.faq details[open] summary::after{transform:translateY(-50%)}
+.faq details p{padding:0 0 22px;color:var(--szary)}
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(32px,6vw,80px);align-items:start}
+.kontakt .dane p{margin-top:12px;color:var(--szary)}
+.kontakt .dane a.mail{display:inline-block;margin-top:22px;font-family:Lora,Georgia,serif;font-size:clamp(22px,2.4vw,30px);font-weight:600;color:var(--bordo);text-decoration:none;border-bottom:2px solid currentColor}
+.newsletter{background:var(--tlo2);border-radius:var(--r);padding:32px}
+.newsletter h3{font-size:24px}
+.newsletter p{margin-top:8px;color:var(--szary)}
+.newsletter form{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.newsletter input{flex:1 1 220px;min-height:50px;border:1px solid #C9CBD1;border-radius:var(--r);padding:0 14px;font:16px Figtree,sans-serif}
+/* stopka */
+.stopka{background:#fff;border-top:1px solid var(--linia);padding:48px 0 28px;font-size:15px;color:var(--szary)}
+.stopka .kol{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+.stopka h4{margin:0 0 10px;font:600 15px Figtree,sans-serif;color:var(--tekst)}
+.stopka ul{list-style:none;margin:0;padding:0}
+.stopka li{margin:6px 0}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:var(--bordo)}
+.stopka .logo{margin-bottom:12px}
+.stopka .dol{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:36px;padding-top:20px;border-top:1px solid var(--linia);font-size:14px}
+/* cookies */
+.cookies{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;max-width:680px;margin:0 auto;background:#fff;border:1px solid var(--linia);border-radius:var(--r);box-shadow:0 10px 30px rgba(0,0,0,.12);padding:14px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:14px;line-height:1.45}
+.cookies[hidden]{display:none}
+.cookies p{flex:1 1 260px;color:var(--szary)}
+.cookies .btn{min-height:40px;padding:0 14px;font-size:14px}
+.cookies .btn-obrys2{border:1px solid #C9CBD1;background:#fff;color:var(--tekst)}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+/* responsywnosc */
+@media (max-width:1100px){
+ .siatka{grid-template-columns:repeat(3,1fr)}
+ .menu{gap:18px}
+}
+@media (max-width:900px){
+ .top .wrap{height:58px;gap:10px}
+ .logo{width:124px;height:34px}
+ .burger{display:block;margin-left:auto}
+ .menu{display:none;position:absolute;left:0;right:0;top:58px;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 20px;border-bottom:1px solid var(--linia);box-shadow:0 12px 24px rgba(0,0,0,.06)}
+ .menu.otwarte{display:flex}
+ .menu a{padding:13px 0;border-bottom:1px solid var(--linia);font-size:17px}
+ .jezyk-nag{display:none}
+ .jezyk-tel{display:flex;gap:18px;padding:14px 0 2px;font-size:15px}.jezyk-tel a{border:0!important;padding:0!important;font-size:15px!important}.jezyk-tel b{color:var(--bordo)}
+ .koszyk{padding:8px 10px}
+ .koszyk .slowo{display:none}
+ .hero{grid-template-columns:1fr;min-height:0}
+ .hero-foto{order:-1;height:min(36svh,340px);margin:0;border-radius:0}
+ .hero-tekst{padding:24px 20px 28px}
+ .hero h1{font-size:clamp(27px,7.4vw,40px);max-width:none}
+ .hero p.lead{margin-top:12px;font-size:16px;line-height:1.5}
+ .hero .cta{margin-top:26px;gap:10px}
+ .hero .cta .btn{flex:1 1 auto;min-height:48px;padding:0 16px}
+ .hero .fakt{display:none}
+ .kategorie{grid-template-columns:repeat(2,1fr);gap:16px}
+ .siatka{grid-template-columns:repeat(2,1fr);gap:14px}
+ .produkt .ramka{margin:10px 10px 0}
+ .produkt .opis{padding:12px 12px 14px}
+ .produkt h3{font-size:16px}
+ .produkt p{display:none}
+ .produkt .dol{flex-direction:column;align-items:stretch;gap:8px}
+ .kroki{grid-template-columns:1fr}
+ .kroki div,.kroki div+div{padding:22px 0;border-left:0;border-bottom:1px solid var(--linia)}
+ .pracownia .uklad{grid-template-columns:1fr}
+ .kontakt{grid-template-columns:1fr}
+ .stopka .kol{grid-template-columns:1fr 1fr}
+ .stopka .kol>div:first-child{grid-column:1/-1}
+ .filtry{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;margin:-16px -20px 26px;padding:0 20px;scrollbar-width:none}
+ .filtry button{flex:none}
+}
+@media (max-width:380px){.hero h1{font-size:26px}.hero p.lead{font-size:15px}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="wrap">
+  <a class="logo" href="#"><span>SunriseStamp</span></a>
+  <nav class="menu" id="menu" aria-label="Menu główne">
+   <a href="#modele">Modele</a>
+   <a href="#kategorie">Numer na dom</a>
+   <a href="#zamowienie">Jak zamówić</a>
+   <a href="#pracownia">Pracownia</a>
+   <a href="#faq">FAQ</a>
+   <a href="#kontakt">Kontakt</a>
+   <div class="jezyk-tel"><a href="#">EN</a><a href="#">DE</a><a href="#">FR</a><a href="#">ES</a><a href="#">IT</a><b>PL</b></div>
+   <details class="jezyk jezyk-nag"><summary aria-label="Wybierz język">PL</summary><ul><li><a href="#">English</a></li><li><a href="#">Deutsch</a></li><li><a href="#">Français</a></li><li><a href="#">Español</a></li><li><a href="#">Italiano</a></li></ul></details>
+  </nav>
+  <a class="koszyk" href="#modele" aria-label="Koszyk"><span class="slowo">Koszyk</span><b id="licznik">0</b></a>
+  <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+ </div>
+</header>
+
+<main>
+<section class="hero">
+ <div class="hero-tekst">
+  <h1>Drewniane numery na drzwi, które opowiadają o domu i pasjach</h1>
+  <p class="lead">Tabliczki z litego drewna lipowego z Twoim numerem. Frezowane CNC, szlifowane i olejowane ręcznie w Polsce.</p>
+  <div class="cta">
+   <a class="btn btn-jasny" href="#modele">Wybierz swój motyw</a>
+   <a class="btn btn-obrys" href="#kategorie">Numer na dom</a>
+  </div>
+  <p class="fakt">Od 1 do 3 znaków na tabliczce, np. 7, 31A albo imię konia na boksie. Zabezpieczenie olejem i woskiem OSMO.</p>
+ </div>
+ <div class="hero-foto">
+  <img src="img/gory2-1000.webp" srcset="img/gory2-640.webp 640w, img/gory2-1000.webp 1000w, img/gory2-1351.webp 1351w" sizes="(min-width:900px) 55vw, 100vw" width="1351" height="1800" alt="Okrągła drewniana tabliczka z numerem 7 i parą wędrowców na tle gór, trzymana w dłoni" fetchpriority="high">
+ </div>
+</section>
+
+<section class="sekcja" id="kategorie">
+ <div class="wrap">
+  <div class="naglowek">
+   <div class="horyzont" aria-hidden="true"><span></span></div>
+   <h2>Gdzie zawiśnie Twój znak?</h2>
+   <p>Na drzwiach mieszkania, na elewacji domu, przy boksie konia albo na ścianie jako płaskorzeźba z przesłaniem.</p>
+  </div>
+  <div class="kategorie">
+   <a class="kat" href="#modele" data-pokaz="drzwi"><div class="ramka"><img src="img/kot_home-420.webp" srcset="img/kot_home-420.webp 420w, img/kot_home-760.webp 760w" sizes="(min-width:900px) 290px, 50vw" width="420" height="315" alt="Drewniany numer na drzwi mieszkania z kotem na dachu domku" loading="lazy"></div><h3>Na drzwi mieszkania</h3><p>12 motywów, od 205 zł</p></a>
+   <a class="kat" href="#modele" data-pokaz="dom"><div class="ramka"><img src="img/dom_zurawie-420.webp" srcset="img/dom_zurawie-420.webp 420w, img/dom_zurawie-760.webp 760w" sizes="(min-width:900px) 290px, 50vw" width="420" height="560" alt="Drewniana tabliczka z numerem domu 31A i żurawiami" loading="lazy"></div><h3>Numer na dom</h3><p>Tabliczka 28 x 22 cm albo cyfry po 27 cm</p></a>
+   <a class="kat" href="#modele" data-pokaz="konie"><div class="ramka"><img src="img/boks-420.webp" srcset="img/boks-420.webp 420w, img/boks-760.webp 760w" sizes="(min-width:900px) 290px, 50vw" width="420" height="560" alt="Drewniana tabliczka z imieniem konia na drzwiach boksu" loading="lazy"></div><h3>Tabliczka na boks</h3><p>Z imieniem konia, 280 zł</p></a>
+   <a class="kat" href="#modele" data-pokaz="plaskorzezby"><div class="ramka"><img src="img/kot_przeslanie-420.webp" srcset="img/kot_przeslanie-420.webp 420w, img/kot_przeslanie-760.webp 760w" sizes="(min-width:900px) 290px, 50vw" width="420" height="560" alt="Drewniana płaskorzeźba kota w kwiatowym ornamencie" loading="lazy"></div><h3>Płaskorzeźby</h3><p>Kot w drewnie z przesłaniem, 390 zł</p></a>
+  </div>
+ </div>
+</section>
+
+<section class="sekcja szare" id="modele">
+ <div class="wrap">
+  <div class="naglowek">
+   <div class="horyzont" aria-hidden="true"><span></span></div>
+   <h2>Modele</h2>
+   <p>Każdy model powstaje z litego drewna lipowego. Wybierz motyw, wpisz numer i dodaj do koszyka.</p>
+  </div>
+  <div class="filtry" role="group" aria-label="Filtruj modele">
+   <button type="button" data-filtr="wszystko" aria-pressed="true">Wszystkie</button>
+   <button type="button" data-filtr="koty" aria-pressed="false">Koty</button>
+   <button type="button" data-filtr="natura" aria-pressed="false">Natura i góry</button>
+   <button type="button" data-filtr="pasje" aria-pressed="false">Pasje</button>
+   <button type="button" data-filtr="drzwi" aria-pressed="false">Na drzwi mieszkania</button>
+   <button type="button" data-filtr="dom" aria-pressed="false">Numer na dom</button>
+   <button type="button" data-filtr="konie" aria-pressed="false">Konie</button>
+  </div>
+  <div class="siatka" id="siatka">
+   <article class="produkt" data-kat="koty plaskorzezby"><div class="ramka"><img src="img/kot_przeslanie-420.webp" srcset="img/kot_przeslanie-420.webp 420w, img/kot_przeslanie-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Kot w drewnie z przesłaniem" loading="lazy"></div><div class="opis"><h3>Kot w drewnie z przesłaniem</h3><p>Cichy znak bliskości dla kogoś, komu chcesz powiedzieć więcej.</p><div class="dol"><span class="cena">390 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="koty drzwi"><div class="ramka"><img src="img/kot_spi-420.webp" srcset="img/kot_spi-420.webp 420w, img/kot_spi-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="361" alt="Numer na drzwi z odpoczywającym kotem" loading="lazy"></div><div class="opis"><h3>Odpoczywający kot</h3><p>Dom jest spokojniejszy, gdy za drzwiami czeka kot.</p><div class="dol"><span class="cena">205 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="koty drzwi"><div class="ramka"><img src="img/kot_home-420.webp" srcset="img/kot_home-420.webp 420w, img/kot_home-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="315" alt="Numer na drzwi Cat Home z kotem" loading="lazy"></div><div class="opis"><h3>Cat Home</h3><p>Od progu wiadomo, że to dom, w którym kot jest rodziną.</p><div class="dol"><span class="cena">260 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="koty drzwi"><div class="ramka"><img src="img/kot_ornament-420.webp" srcset="img/kot_ornament-420.webp 420w, img/kot_ornament-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Numer na drzwi z kotem i ornamentem" loading="lazy"></div><div class="opis"><h3>Kot z ornamentem</h3><p>Koci strażnik progu dla domu, który ma własny charakter.</p><div class="dol"><span class="cena">260 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="natura drzwi"><div class="ramka"><img src="img/kwiaty-420.webp" srcset="img/kwiaty-420.webp 420w, img/kwiaty-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="504" alt="Numer na drzwi z kwiatowym ornamentem" loading="lazy"></div><div class="opis"><h3>Kwiatowy ornament</h3><p>Dla tych, którzy najspokojniej czują się blisko ogrodu.</p><div class="dol"><span class="cena">260 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="natura drzwi"><div class="ramka"><img src="img/gory-420.webp" srcset="img/gory-420.webp 420w, img/gory-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Okrągły numer na drzwi z motywem gór" loading="lazy"></div><div class="opis"><h3>W górach</h3><p>Mały kawałek szlaku dla tych, którzy w górach oddychają pełniej.</p><div class="dol"><span class="cena">260 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="konie pasje drzwi"><div class="ramka"><img src="img/kon-420.webp" srcset="img/kon-420.webp 420w, img/kon-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Numer na drzwi z głową konia" loading="lazy"></div><div class="opis"><h3>Dla miłośników koni</h3><p>Świat widziany między końskimi uszami.</p><div class="dol"><span class="cena">295 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="pasje drzwi"><div class="ramka"><img src="img/ksiazki-420.webp" srcset="img/ksiazki-420.webp 420w, img/ksiazki-760.webp 711w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="603" alt="Numer na drzwi z książkami i lampką" loading="lazy"></div><div class="opis"><h3>Dla miłośników książek</h3><p>Zawsze jest miejsce na jeszcze jeden rozdział.</p><div class="dol"><span class="cena">260 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="pasje drzwi"><div class="ramka"><img src="img/golebie-420.webp" srcset="img/golebie-420.webp 420w, img/golebie-760.webp 602w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Numer na drzwi z gołębiami pocztowymi" loading="lazy"></div><div class="opis"><h3>Gołębie pocztowe</h3><p>Oczekiwanie na znajome skrzydła i droga do domu.</p><div class="dol"><span class="cena">305 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="natura drzwi"><div class="ramka"><img src="img/grzyby-420.webp" srcset="img/grzyby-420.webp 420w, img/grzyby-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="551" alt="Numer na drzwi z grzybami i lasem" loading="lazy"></div><div class="opis"><h3>Grzyby i las</h3><p>Zapach mokrego mchu i pierwszy znaleziony kapelusz.</p><div class="dol"><span class="cena">330 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="natura pasje drzwi"><div class="ramka"><img src="img/pasieka-420.webp" srcset="img/pasieka-420.webp 420w, img/pasieka-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Sześciokątny numer na drzwi z motywem pasieki" loading="lazy"></div><div class="opis"><h3>Pasieka</h3><p>Zapach ula i spokojny rytm pasieki zapisane w drewnie.</p><div class="dol"><span class="cena">280 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="pasje drzwi"><div class="ramka"><img src="img/gravel-420.webp" srcset="img/gravel-420.webp 420w, img/gravel-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Okrągły numer na drzwi z motywem roweru gravel" loading="lazy"></div><div class="opis"><h3>Gravel</h3><p>Trzask żwiru pod kołami i kolejna droga za zakrętem.</p><div class="dol"><span class="cena">260 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="pasje drzwi"><div class="ramka"><img src="img/nurek-420.webp" srcset="img/nurek-420.webp 420w, img/nurek-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Numer na drzwi z motywem nurkowym" loading="lazy"></div><div class="opis"><h3>Nurek</h3><p>Cisza pod powierzchnią i świat dla tych, którzy schodzą głębiej.</p><div class="dol"><span class="cena">295 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="natura dom"><div class="ramka"><img src="img/dom_kwiaty-420.webp" srcset="img/dom_kwiaty-420.webp 420w, img/dom_kwiaty-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="525" alt="Drewniane cyfry 17 z kwiatowym ornamentem na elewacji" loading="lazy"></div><div class="opis"><h3>Kwiatowe cyfry na dom</h3><p>Numer domu, w którym nawet cyfry rozkwitają.</p><div class="dol"><span class="cena">450 zł <small>/ cyfra</small></span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="natura dom"><div class="ramka"><img src="img/dom_zurawie-420.webp" srcset="img/dom_zurawie-420.webp 420w, img/dom_zurawie-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Tabliczka z numerem domu i żurawiami" loading="lazy"></div><div class="opis"><h3>Żurawie, tabliczka na dom</h3><p>Dla kogoś, kto zawsze wypatruje żurawi na niebie.</p><div class="dol"><span class="cena">850 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+   <article class="produkt" data-kat="konie pasje"><div class="ramka"><img src="img/boks-420.webp" srcset="img/boks-420.webp 420w, img/boks-760.webp 760w" sizes="(min-width:1100px) 270px, (min-width:900px) 30vw, 46vw" width="420" height="560" alt="Tabliczka na boks z imieniem konia Iskra" loading="lazy"></div><div class="opis"><h3>Tabliczka na boks</h3><p>Imię konia, które mówi o więzi silniejszej niż słowa.</p><div class="dol"><span class="cena">280 zł</span><button class="dodaj" type="button">Do koszyka</button></div></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="sekcja" id="zamowienie">
+ <div class="wrap">
+  <div class="naglowek">
+   <div class="horyzont" aria-hidden="true"><span></span></div>
+   <h2>Jak zamówić swój numer</h2>
+   <p>Bez dzwonienia i ustalania mailem. Numer wpisujesz od razu przy produkcie.</p>
+  </div>
+  <div class="kroki">
+   <div><h3>Wybierasz motyw</h3><p>Koty, góry, las, pasieka, konie, książki. Każdy motyw ma osobną stronę z wymiarami i zdjęciami z bliska.</p></div>
+   <div><h3>Wpisujesz numer</h3><p>Od 1 do 3 liter lub cyfr, także z literą. Na tabliczce na boks zamiast numeru imię konia.</p><span class="przyklad" aria-hidden="true">7A</span></div>
+   <div><h3>Płacisz i czekasz na paczkę</h3><p>Płatność online przez Tpay. Szacowany czas dostawy podajemy przy każdym modelu, dziś ok. 10 dni roboczych.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="sekcja pracownia" id="pracownia">
+ <div class="wrap uklad">
+  <div class="foto"><img src="img/warsztat-640.webp" srcset="img/warsztat-640.webp 640w, img/warsztat-1000.webp 1000w" sizes="(min-width:900px) 560px, 100vw" width="640" height="640" alt="Drewniana tabliczka z kotem na stole w pracowni, obok pędzel i olej" loading="lazy"></div>
+  <div>
+   <div class="horyzont" aria-hidden="true" style="margin-left:0;color:#E4D6CF"><span></span></div>
+   <h2>Spokojny detal, wykonany bez pośpiechu</h2>
+   <p class="lead">Tworzę przedmioty, które dodają ciepła, spokoju i odrobiny bliskości codziennej przestrzeni przy drzwiach i w domu.</p>
+   <div class="cechy">
+    <div><h3>Lite drewno lipowe</h3><p>Bo ma rysunek, dotyk, zapach i naturalny rytm, którego nie da się podrobić.</p></div>
+    <div><h3>Frezowanie CNC i ręczne wykończenie</h3><p>Relief powstaje na frezarce, a szlifowanie, olejowanie i woskowanie OSMO robię ręcznie. Każdy egzemplarz ma własny ton.</p></div>
+    <div><h3>Krótkie serie</h3><p>Mała rzecz potrafi zmienić odczucie całego miejsca, dlatego żaden znak nie powstaje taśmowo.</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="sekcja szare" id="faq">
+ <div class="wrap">
+  <div class="naglowek">
+   <div class="horyzont" aria-hidden="true"><span></span></div>
+   <h2>Najczęstsze pytania</h2>
+  </div>
+  <div class="faq">
+   <details open><summary>Ile znaków może mieć numer na tabliczce?</summary><p>Od 1 do 3 liter lub cyfr, np. 7, 12B albo 31A. Na tabliczce na boks wpisujesz imię konia.</p></details>
+   <details><summary>Jakie wymiary mają tabliczki?</summary><p>Zależnie od modelu. Przykładowo okrągły numer z górami ma średnicę 103 mm i grubość 10 mm, tabliczka na dom z żurawiami 28 x 22 cm, a kwiatowe cyfry na dom po 27 cm wysokości.</p></details>
+   <details><summary>Jak zamontować numer na drzwiach?</summary><p>Numery na drzwi mieszkania mocuje się dwustronną taśmą klejącą. Przy numerze na dom mocowanie dobiera się do rodzaju elewacji.</p></details>
+   <details><summary>Czy drewniany numer nadaje się na zewnątrz?</summary><p>Olej i wosk zwiększają odporność drewna na słońce i wilgoć. Przy stałej ekspozycji zewnętrznej powłokę trzeba okresowo sprawdzać i odnawiać.</p></details>
+   <details><summary>Czy to dobry pomysł na prezent?</summary><p>Tak, najczęściej na parapetówkę, przeprowadzkę, urodziny i rocznicę. Motyw dobierasz do pasji osoby, która dostanie prezent.</p></details>
+  </div>
+ </div>
+</section>
+
+<section class="sekcja" id="kontakt">
+ <div class="wrap kontakt">
+  <div class="dane">
+   <div class="horyzont" aria-hidden="true" style="margin-left:0"><span></span></div>
+   <h2>Jeśli ten klimat jest Ci bliski, napisz</h2>
+   <p>Pytanie o motyw, wymiar albo zamówienie na prezent z konkretną datą.</p>
+   <a class="mail" href="mailto:office@sunrisestamp.com">office@sunrisestamp.com</a>
+   <p style="margin-top:26px;font-size:15px">Właściciel marki: DreamFirst Prosta Spółka Akcyjna<br>ul. Wolności 63/26, 41-800 Zabrze<br>KRS 0001153089, NIP 6482827674, REGON 540786270</p>
+  </div>
+  <div class="newsletter">
+   <h3>Nowe drewniane klimaty</h3>
+   <p>Raz na jakiś czas wiadomość o nowym motywie. Wystarczy e-mail.</p>
+   <form onsubmit="event.preventDefault();this.querySelector('button').textContent='Dziękujemy';">
+    <label for="em" style="position:absolute;left:-9999px">E-mail</label>
+    <input id="em" type="email" placeholder="Twój e-mail" required>
+    <button class="btn btn-bordo" type="submit">Zapisz mnie</button>
+   </form>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="wrap">
+  <div class="kol">
+   <div><span class="logo" aria-hidden="true"></span><p>Drewniane numery, tabliczki i płaskorzeźby z litego drewna lipowego.</p></div>
+   <div><h4>Sklep</h4><ul><li><a href="#modele">Modele</a></li><li><a href="#kategorie">Numer na dom</a></li><li><a href="#kategorie">Na drzwi mieszkania</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+   <div><h4>Informacje</h4><ul><li><a href="#">Regulamin sklepu</a></li><li><a href="#">Polityka prywatności</a></li><li><a href="#">Metody płatności</a></li><li><a href="#kontakt">Kontakt</a></li></ul></div>
+   <div><h4>Obserwuj</h4><ul><li><a href="https://www.instagram.com/sunrisestamp" rel="noopener">Instagram</a></li><li><a href="https://www.facebook.com/profile.php?id=61590833836041" rel="noopener">Facebook</a></li><li><a href="https://www.youtube.com/@DreamFirstP.S.A" rel="noopener">YouTube</a></li></ul></div>
+  </div>
+  <div class="dol">
+   <span>&copy; <span id="rok">2026</span> SunriseStamp</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=sunrisestamp.com&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+  </div>
+ </div>
+</footer>
+
+<div class="cookies" id="cookies" role="dialog" aria-label="Zgoda na pliki cookies" hidden>
+ <p>Statystyki Google uruchamiamy dopiero po Twojej zgodzie. Szczegóły w polityce prywatności.</p>
+ <button class="btn btn-obrys2" type="button" data-zgoda="nie">Tylko niezbędne</button>
+ <button class="btn btn-bordo" type="button" data-zgoda="tak">Akceptuję</button>
+</div>
+<script>
+(function(){var c=document.getElementById('cookies');try{if(!localStorage.getItem('zgoda'))c.hidden=false}catch(e){c.hidden=false}
+c.addEventListener('click',function(e){var b=e.target.closest('[data-zgoda]');if(!b)return;try{localStorage.setItem('zgoda',b.dataset.zgoda)}catch(e){}c.hidden=true});})();
+</script>
+<script defer src="js.js"></script>
+</body>
+</html>
